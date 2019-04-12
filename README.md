@@ -28,7 +28,7 @@ The following is a YouTube video showing several DNI examples. See [our paper](h
 3. Our analyses show that learned filters for several related tasks exhibit continuous changes. We believe that it is worth exploiting the **underlying correlations of learned filters** to further extend the ability and practicality of existing models.
 
 ## DNI
-DNI is simple and can be implemented with several lines of codes.
+DNI is simple and can be implemented with seven lines of code.
 ```python
 alpha = 0.3  # interpolation coefficient
 net_A = torch.load('path_to_net_A.pth')
